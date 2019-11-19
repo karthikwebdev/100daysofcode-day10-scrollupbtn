@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#top
+{
+    background:url(alexandru-zdrobau-4bmtMXGuVqo-unsplash.jpg) ;
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+}
+#matter
+{
+    box-sizing: border-box;
+    padding: 70px;
+    text-align: justify;
+    font-family: cursive;
+}
+#matter h1
+{
+    text-align: center;
+    margin: 50px;
+}
+#scroll
+{
+    width: 50px;
+    height: 50px;
+    bottom: 100px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  cursor: pointer;
+    text-align: center;
+    position: fixed;
+    color: black;
+    border-radius:50% ;
+    border: 2px ;
+    z-index: 100;
+    border: 2px double black;
+}
+#scroll:active{
+    cursor:grabbing;
+}
